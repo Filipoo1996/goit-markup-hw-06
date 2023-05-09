@@ -817,6 +817,201 @@ a {
 .is-hidden .modal {
     transform: scale(0);
 }
+.input-mail {
+    margin-top: 20px;
+    margin-bottom: 94px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: var(--footer-background-color);
+    padding: 15px;
+    width: 358px;
+    margin-right: 12px;
+    
+}
+
+.footer-submit-btn {
+    background-color: var(--text-color-blue);
+    border: 1px solid var(--text-color-blue);
+    border-radius: 4px;
+    color: var(--text-color-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 24px 10px 42px;
+    position: relative;
+    top: 0px;
+
+}
+
+.icon-send {
+    right: 0px;
+    fill: var(--text-color-white);
+    margin-left: 24px;
+}
+
+.mail-footer p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--text-color-white);
+    top: 60px;
+}
+
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: var(--text-color-black);
+    padding-bottom: 4px;
+    position: relative;
+    border: none;
+    margin-left: 40px;
+}
+
+.icon-label {
+    position: absolute;
+    top: 25px;
+    left: 12px;
+}
+.text-form-modal {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.input-label {
+    margin-bottom: 10px;
+    border: 1px solid #21212133;
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 13px;
+    align-items: center;
+    padding-left: 42px;
+    cursor: pointer;
+}
+
+.label-checkbox {
+    position: relative;
+    color: var(--text-color-black);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.button-modal {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--text-color-blue);
+    color: var(--white-color);
+    border: 1px solid var(--text-color-blue);
+    border-radius: 4px;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    padding: 10px 76px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.input-comment {
+    border: 1px solid #21212133;
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 13px;
+    align-items: center;
+    resize: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.input-label:hover,
+.input-label:focus-within {
+    border: 1px solid var(--text-color-blue);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+}
+
+.input-label:hover .icon-label,
+.input-label:focus .icon-label {
+    fill: var(--text-color-blue);
+    outline: none;
+}
+
+
+
+.input-comment:hover,
+.input-comment:focus {
+    border-color: var(--text-color-blue);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.input-checkbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.icon-label-checkbox {
+    fill: var(--text-color-white);
+    border: 2px solid #000000;
+    width: 16px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.input-checkbox:checked+.icon-label-checkbox {
+    border-color: var(--text-color-bluer);
+    background-color: var(--text-color-blue);
+}
+
+.link-checkbox {
+    position: relative;
+    display: inline;
+    color: var(--hover-color);
+}
 
 
 
