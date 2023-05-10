@@ -818,8 +818,6 @@ a {
     transform: scale(0);
 }
 .input-mail {
-    margin-top: 20px;
-    margin-bottom: 94px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -860,9 +858,15 @@ a {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 20px;
 
     color: var(--text-color-white);
     top: 60px;
+}
+.mail-footer{
+    padding-left: 76px;
+    padding-top: 10px;
+    
 }
 
 
@@ -928,7 +932,7 @@ a {
     font-size: 16px;
     line-height: 1.6;
     background-color: var(--text-color-blue);
-    color: var(--white-color);
+    color: var(--text-color-white);
     border: 1px solid var(--text-color-blue);
     border-radius: 4px;
     font-family: var(--font-primary);
